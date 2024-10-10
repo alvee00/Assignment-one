@@ -1,8 +1,27 @@
 
 
-.azeret-mono-uniquifier {
+.azeret-mono-uniquifier{
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+/* shared style */
+.btn-primary{
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 17px 24px;
+}
+/* NAV STYLES */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 175px;
+}
+.nav-title{
+  font-weight: 900;
+  font-size: 28px;
+  color: #0D1321;
 }
