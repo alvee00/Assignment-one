@@ -6,6 +6,10 @@
   font-weight: weight;
   font-style: normal;
 }
+.container{
+  display: flex;
+  gap: 50px;
+}
 /* shared style */
 .btn-primary{
   color: #000000;
@@ -13,7 +17,8 @@
   font-size: 20px;
   padding: 17px 24px;
 }
-.btn-secendary{
+
+{
   background-color: #000000;
   font-size: 20px;
   font-weight: 600;
@@ -61,3 +66,15 @@ nav{
   font-weight: 400;
   color: #0D1321;
 }
+.about-title{
+  font-size: 24px;
+  font-weight: bold;
+  color: #0D1321;
+}
+.about-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0D1321;
+}
+
+
