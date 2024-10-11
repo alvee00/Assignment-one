@@ -12,7 +12,6 @@ main{
   margin: 0 auto;
   padding: 90px 150px;
 }
-
 .secendary-bg{
   text-align: center;
 }
@@ -38,8 +37,15 @@ main{
 }
 .btn-secendary-on{
   font-size: 20px;
-  font-weight: 500;
-
+  font-weight: 500
+}
+.text-center{
+  text-align: center;
+}
+.h6{
+  font-size: 16px;
+  font-weight: 800;
+  color: #0D1321;
 }
 /* NAV STYLES */
 nav{
@@ -109,3 +115,35 @@ nav{
   color: #0D1321;
 }
 
+/* skill styles */
+.skill-title{
+  font-size: 32px;
+  font-weight: 900;
+  color: #0D1321;
+}
+.skill-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0D1321;
+}
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+.one{
+  background-color: #FF4C1E;
+  padding: 40px;
+}
+.two{
+  background-color: #004CE8;
+  padding: 40px;
+}
+.three{
+  background-color: #FFDF00;
+  padding: 40px;
+}
+.skills{
+  width: 1140;
+  height: 460;
+  gap: 48px;
+}
