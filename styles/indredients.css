@@ -189,11 +189,7 @@ footer{
   text-decoration: none;
   gap: 24px;
 }
-.social-links img{
-  width: ;
-  height: auto;
-  transition: transform;
-}
+
 .social-links a:hover img{
   transform: scale(1.1);
 }
