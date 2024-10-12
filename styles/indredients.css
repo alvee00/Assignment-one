@@ -168,3 +168,32 @@ nav{
   background-image: url(../assets/handshake.jpg);
   color: #fff;
 }
+
+/* footer styles  */
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 32px;
+  gap: 32px;
+  text-align: center;
+}
+.title{
+  font-size: 20px;
+  font-weight: 500;
+  color: #0D1321;
+}
+.social-links{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  gap: 24px;
+}
+.social-links img{
+  width: ;
+  height: auto;
+  transition: transform;
+}
+.social-links a:hover img{
+  transform: scale(1.1);
+}
