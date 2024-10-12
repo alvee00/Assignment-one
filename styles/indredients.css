@@ -147,3 +147,24 @@ nav{
   height: 460;
   gap: 48px;
 }
+/* form styles */
+.form-title{
+  font-size: 32px;
+  font-weight: bold;
+}
+.form-des{
+  font-size: 16px;
+  font-weight: 400;
+}
+.form{
+  width: 1140;
+  height: 437;
+  margin: 56px 150px;
+  padding: 48px 64px;
+  box-shadow: 0px 6px 50px 0px;
+  text-align: center;
+  gap: 32px;
+  border-radius: 16px;
+  background-image: url(../assets/handshake.jpg);
+  color: #fff;
+}
